@@ -62,6 +62,11 @@ function Body() {
             <img src={image} alt="landing page image" />
         </div>
       </div>
+      <div id="barner">
+        <span>
+           More than 70% of Amazon sellers generate their first sale in less than 60 days.
+        </span>
+      </div>
     </div>
   );
 }
