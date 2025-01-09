@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import image from "../Assets/landing.jpg"
+import incentiveImage from "../Assets/incentives.jpg"
 function Body() {
   return (
     <div id="body">
@@ -66,6 +67,18 @@ function Body() {
         <span>
            More than 70% of Amazon sellers generate their first sale in less than 60 days.
         </span>
+      </div>
+      <div id="incentives">
+        <div id="incentive-image">
+            <img src={incentiveImage} alt="incentive image" />
+        </div>
+        <div id="incentive-content">
+          <div id="incentive-title" >
+            <img src="https://m.media-amazon.com/images/G/01/sell/icons/star.svg" alt="" />
+            <span>New Seller Incentives</span>
+          </div>
+          <span>Get started with $50,000 in incentives</span>
+        </div>
       </div>
     </div>
   );
