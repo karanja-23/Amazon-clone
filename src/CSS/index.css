@@ -147,8 +147,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 30px;
-
+  gap: 50px;
+  padding: 40px 0px;
 }
 
 #incentive-image{
@@ -158,7 +158,7 @@
   
 }
 #incentive-image img{
-  width: 70%;
+  width: 60%;
 }
 #incentive-content{  
   width: 50%;
@@ -192,6 +192,42 @@
   color: white;
 }
 
+#incentive-content p{
+  font-size: 1.14em;
+  font-weight: 500;
+  width: 100%;
+  color: rgb(11, 11, 54);
+  width: 60%;
+}
+#offers{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.96em;  
+  width: 60%;
+  background-color: rgb(247, 247, 177);
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.offer{
+  display: flex;
+  gap: 10px;
+  
+}
+.offer span{
+  color: rgb(11, 11, 54);
+  font-weight: 900;
+  font-size: 0.9em;
+}
+.check{
+  color: green;
+  font-size: 0.9em;
+}
+.bold{
+  color: rgb(11, 11, 54);
+  font-weight: 900;
+  font-size: 0.9em;
+}
 
 
 
@@ -219,7 +255,9 @@
     border-radius: 25px;
     color: black;
   }
-
+  #incentive-content{
+    gap: 10px;
+  }
   #content-div{
     width: 100%;
     display: flex;
@@ -238,6 +276,36 @@
     width: 100%;
   }
   #incentive-image img{
-    width: 80%;
+    width: 100%;
   }
+  #incentive-content span{
+    font-size: 2.3em;
+    font-weight: 900;
+    width: 70%;
+    color: rgb(11, 11, 54);
+  }
+  #incentive-title span{
+    font-size: 1.0em;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+  }
+  #incentive-content p{
+    font-size: 1.0em;
+    font-weight: 500;
+    width: 100%;
+    color: rgb(11, 11, 54);
+    width: 100%;
+  }
+  #offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 0.94em;  
+    width: 75%;
+    padding: 15px 35px 15px 20px;
+    background-color: rgb(247, 247, 177);
+  }
+  
 }
